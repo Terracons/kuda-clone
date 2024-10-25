@@ -1,0 +1,59 @@
+.HeroContainer{
+    max-width: 1280px;
+    display: flex;
+    min-height: calc(100vh - 70px);
+    justify-content: center;
+    align-items: center;
+}
+.heroText{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+
+}
+.heroText h1{
+    color: #40196d;
+    font-size: 42px;
+    font-weight: 900;
+
+}
+.heroText p{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+button{
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+.playstore{
+    display: flex;
+    justify-content: center;
+    color: white;
+    img{
+        width: 30px;
+        
+    }
+}
+.text p {
+    color: white;
+    font-size: 10px;
+}
+.text h3 {
+    color: white;
+    font-size: 13px;
+}
+.text  {
+
+    line-height: 2px;
+}
+.appleplaystore{
+    display: flex;
+    gap:20px;
+}
