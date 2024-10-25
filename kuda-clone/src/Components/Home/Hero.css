@@ -2,14 +2,14 @@
     max-width: 1280px;
     display: flex;
     min-height: calc(100vh - 70px);
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .heroText{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 500px;
+    width: 400px;
 
 }
 .heroText h1{
