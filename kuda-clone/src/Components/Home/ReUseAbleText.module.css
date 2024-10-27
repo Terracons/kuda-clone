@@ -1,0 +1,22 @@
+.container{
+    max-width: 400px;
+}
+.subheading{
+    font-size: 32px;
+    font-weight: 900;
+    color: #40196d;
+    max-width: 300px;
+}
+.paragraph{
+    font-size: 14px;
+    max-width: 350px;
+}
+
+.link{
+    color: #40196d;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+}

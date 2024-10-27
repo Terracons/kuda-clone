@@ -1,0 +1,25 @@
+@keyframes slideInLeft{
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+.outercontainer{
+    width: 1320px;
+    overflow: auto;
+
+}
+.container{
+
+    display: flex;
+    gap: 20px;
+    animation: slideInLeft 15s forwards linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+
+}
+
+
