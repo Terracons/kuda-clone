@@ -1,5 +1,5 @@
 import ReUseAbleText from "./ReUseAbleText"
-import section2image from "../../assets/section2.png"
+import section2image from "../../assets/sectiontwo.png"
 import sectionCSS from "./Section2.module.css"
 
 const Section2 =()=>{
