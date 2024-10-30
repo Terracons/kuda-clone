@@ -2,6 +2,7 @@ import "./Header.css"
 import logo from "../assets/logo.png"
 import { IoMdArrowDropdown } from "react-icons/io";
 import naijalogo from "../assets/naija.png"
+import { RxHamburgerMenu } from "react-icons/rx";
 const Header =()=>{
     return(
         <div className="HeaderContainer">
@@ -20,6 +21,7 @@ const Header =()=>{
                 <button className="sigin">Sign In</button>
                 <button className="join">Join Kuda</button>
                 <img src={naijalogo} alt="" />
+                <h2 className="Hambugger"  >{<RxHamburgerMenu />}  </h2> 
 
 
             </div>

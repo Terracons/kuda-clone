@@ -20,7 +20,7 @@ const Home =()=>{
             <Section4/>
             <Section5/>
             <Section6/>  
-            <Testimonial/>  
+            {/* <Testimonial/>   */}
         </div>
     )
 }

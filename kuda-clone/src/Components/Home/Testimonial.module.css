@@ -8,11 +8,12 @@
     }
 }
 .outercontainer{
-    width: 1320px;
-    overflow: auto;
+    max-width: 100%;
+    overflow: hidden;
 
 }
 .container{
+    width: 1320px;
 
     display: flex;
     gap: 20px;
@@ -21,5 +22,60 @@
     animation-iteration-count: infinite;
 
 }
+@media (max-width: 576px) {
+    .outercontainer{
+        max-width: 576px;
+        overflow: hidden;
 
+    }
+    .container {
+        width: 80%;
+        gap: 10px;
+        
+    }
+}
 
+@media (min-width: 576px) and (max-width: 768px) {
+    .outercontainer{
+        max-width: 768px;
+        overflow: hidden;
+
+    }
+    .container {
+        width: 80%;
+        gap: 10px;
+        
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .container {
+        width: 1000px;
+        gap: 20px;
+        
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .container {
+        width: 1150px;
+        gap: 20px;
+        
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .container {
+        width: 1260px;
+        gap: 20px;
+       
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        width: 1320px;
+        gap: 20px;
+        animation: slideInLeft 18s forwards linear;
+    }
+}

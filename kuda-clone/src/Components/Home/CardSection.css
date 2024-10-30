@@ -15,3 +15,34 @@
     display: flex;
     gap: 20px;
 }
+
+@media (max-width: 576px) {
+    /* Styles for extra small screens */
+    .upper, .lower{
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+    .upper, .lower{
+        flex-direction: column;
+    }
+    /* Styles for small screens */
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    /* Styles for medium screens */
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* Styles for large screens */
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    /* Styles for extra large screens */
+}
+
+@media (min-width: 1400px) {
+    /* Styles for ultra-wide screens */
+}
